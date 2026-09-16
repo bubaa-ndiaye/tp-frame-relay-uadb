@@ -1,0 +1,8 @@
+enable
+configure terminal
+interface serial 0/0
+encapsulation frame-relay
+ip address 172.16.1.2 255.255.255.0
+frame-relay interface-dlci 200
+no shutdown
+end
