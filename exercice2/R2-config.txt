@@ -1,0 +1,9 @@
+enable
+configure terminal
+hostname R2
+interface serial 1/0
+encapsulation frame-relay
+ip address 131.108.168.2 255.255.255.0
+frame-relay interface-dlci 200
+no shutdown
+end

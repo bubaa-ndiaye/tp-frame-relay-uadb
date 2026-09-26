@@ -30,8 +30,14 @@ tp-frame-relay-uadb/
 │   ├── R1-config.txt
 │   ├── R2-config.txt
 │   └── captures/
-├── exercice2/  (à venir)
+├── exercice2/
+│   ├── README.md                 # Topologie, objectifs, configs
+│   ├── R1-config.txt
+│   ├── R2-config.txt
+│   └── captures/
 ├── exercice3/  (à venir)
+├── exercice4/  (à venir)
+...
 ...
 ```
 
@@ -40,7 +46,7 @@ tp-frame-relay-uadb/
 | Exercice | Description | Statut |
 |---|---|---|
 | 1 | Simple configuration avec Switch FR | ✅ Terminé |
-| 2 | Point-à-point (2 routeurs) via Switch | ⏳ À venir |
+| 2 | Point-à-point (2 routeurs) via Switch | ✅ Terminé |
 | 3 | Point-à-point (3 routeurs) avec RIP | ⏳ À venir |
 | 4 | Point-à-point (4 routeurs) avec RIP | ⏳ À venir |
 | 5 | Simple configuration sans Switch | ⏳ À venir |
