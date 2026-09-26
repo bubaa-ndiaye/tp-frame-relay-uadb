@@ -38,7 +38,6 @@ tp-frame-relay-uadb/
 ├── exercice3/  (à venir)
 ├── exercice4/  (à venir)
 ...
-...
 ```
 
 ## ✅ Avancement
