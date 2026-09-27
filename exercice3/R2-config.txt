@@ -1,0 +1,19 @@
+enable
+configure terminal
+interface serial1/0
+encapsulation frame-relay
+ip address 131.108.1.2 255.255.255.0
+frame-relay interface-dlci 200
+no shutdown
+exit
+!
+interface fastEthernet0/0
+ip address 192.108.1.1 255.255.255.0
+no shutdown
+exit
+!
+router rip
+version 2
+network 131.108.1.0
+network 192.108.1.0
+end
