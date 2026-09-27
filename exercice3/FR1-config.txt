@@ -1,0 +1,10 @@
+Switch Frame Relay : FR1
+
+Mapping configuré (via Node properties > Mapping) :
+
+Port 1 (R1) : DLCI 100  <-->  Port 2 (R2) : DLCI 200
+Port 1 (R1) : DLCI 300  <-->  Port 3 (R3) : DLCI 400
+
+Remarque : FR1 est un switch Frame Relay natif de GNS3 (pas d'image IOS requise).
+Le port 1 (côté R1) gère deux circuits virtuels distincts car R1 communique
+à la fois avec R2 et R3 sur sa même interface physique, via des sous-interfaces.
