@@ -4,7 +4,6 @@
 
 ![Topologie Exercice 5](captures/topologie.png)
 
-```
 | Routeur | Adresse IP | DLCI |
 |---|---|---|
 | Dakar | 192.168.1.1/24 | 120 |
