@@ -36,15 +36,22 @@ tp-frame-relay-uadb/
 │   ├── R2-config.txt
 │   └── captures/
 ├── exercice3/
-│    ├── README.md
-│    ├── R1-config.txt
-│    ├── R2-config.txt
-│    ├── R3-config.txt
-│    ├── FR1-config.txt
-│    └── captures/
-├── exercice4/  (à venir)
+│   ├── README.md
+│   ├── R1-config.txt
+│   ├── R2-config.txt
+│   ├── R3-config.txt
+│   ├── FR1-config.txt
+│   └── captures/
+├── exercice4/
+│   ├── README.md
+│   ├── Ntsaoueni-config.txt
+│   ├── Cotonou-config.txt
+│   ├── Dakar-config.txt
+│   ├── Conakry-config.txt
+│   ├── FR1-config.txt
+│   └── captures/
+├── exercice5/  (à venir)
 ...
-```
 
 ## ✅ Avancement
 
@@ -53,7 +60,7 @@ tp-frame-relay-uadb/
 | 1 | Simple configuration avec Switch FR | ✅ Terminé |
 | 2 | Point-à-point (2 routeurs) via Switch | ✅ Terminé |
 | 3 | Point-à-point (3 routeurs) avec RIP |  ✅ Terminé |
-| 4 | Point-à-point (4 routeurs) avec RIP | ⏳ À venir |
+| 4 | Point-à-point (4 routeurs) avec RIP |  ✅ Terminé |
 | 5 | Simple configuration sans Switch | ⏳ À venir |
 | 6 | frame-relay map ip | ⏳ À venir |
 | 7 | frame-relay interface-dlci | ⏳ À venir |
