@@ -1,0 +1,19 @@
+enable
+configure terminal
+frame-relay switching
+
+interface serial1/0
+encapsulation frame-relay
+frame-relay intf-type dce
+no shutdown
+frame-relay route 120 interface serial1/1 121
+exit
+
+interface serial1/1
+encapsulation frame-relay
+frame-relay intf-type dce
+no shutdown
+frame-relay route 121 interface serial1/0 120
+exit
+end
+copy running-config startup-config

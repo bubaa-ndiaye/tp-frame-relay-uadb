@@ -11,3 +11,4 @@ interface fastEthernet0/0
 ip address 10.10.2.1 255.255.255.0
 no shutdown
 end
+copy running-config startup-config
