@@ -5,11 +5,6 @@
 ![Topologie Exercice 5](captures/topologie.png)
 
 ```
-Dakar (DLCI 120) ---- FrameRelais (routeur DCE) ---- Ntsaoueni (DLCI 121)
-   |                                                        |
- SW1 (10.10.1.0/24)                                SW2 (10.10.2.0/24)
-```
-
 | Routeur | Adresse IP | DLCI |
 |---|---|---|
 | Dakar | 192.168.1.1/24 | 120 |
