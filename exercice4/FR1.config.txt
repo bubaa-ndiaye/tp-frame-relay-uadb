@@ -1,0 +1,7 @@
+Configuration faite via l'interface graphique : clic droit sur FR1 > Configure
+Chaque ligne = un PVC (liaison bidirectionnelle)
+
+Port source        DLCI   Port destination     DLCI
+1 (Ntsaouni)       100    2 (Cotonou)          110
+1 (Ntsaouni)       200    3 (Dakar)            210
+1 (Ntsaouni)       300    4 (Conakry)          310

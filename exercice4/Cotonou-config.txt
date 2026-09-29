@@ -1,0 +1,15 @@
+enable
+configure terminal
+hostname Cotonou
+
+interface serial 1/0
+encapsulation frame-relay
+ip address 140.108.1.2 255.255.255.0
+no shutdown
+frame-relay interface-dlci 110
+
+router rip
+network 140.108.0.0
+
+end
+copy running-config startup-config

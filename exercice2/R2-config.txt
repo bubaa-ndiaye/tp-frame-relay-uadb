@@ -7,3 +7,4 @@ ip address 131.108.168.2 255.255.255.0
 frame-relay interface-dlci 200
 no shutdown
 end
+copy running-config startup-config

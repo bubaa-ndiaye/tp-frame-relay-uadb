@@ -1,0 +1,25 @@
+enable
+configure terminal
+hostname Ntsaouni
+
+interface serial 1/0
+encapsulation frame-relay
+no shutdown
+
+interface serial 1/0.1 point-to-point
+ip address 140.108.1.1 255.255.255.0
+frame-relay interface-dlci 100
+
+interface serial 1/0.2 point-to-point
+ip address 140.108.2.1 255.255.255.0
+frame-relay interface-dlci 200
+
+interface serial 1/0.3 point-to-point
+ip address 140.108.3.1 255.255.255.0
+frame-relay interface-dlci 300
+
+router rip
+network 140.108.0.0
+
+end
+copy running-config startup-config
