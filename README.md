@@ -50,7 +50,13 @@ tp-frame-relay-uadb/
 │   ├── Conakry-config.txt
 │   ├── FR1-config.txt
 │   └── captures/
-├── exercice5/  (à venir)
+├── exercice5/
+│   ├── README.md
+│   ├── Dakar-config.txt
+│   ├── Ntsaoueni-config.txt
+│   ├── FrameRelais-config.txt
+│   └── captures/
+├── exercice6/  (à venir)
 ...
 
 ## ✅ Avancement
@@ -61,7 +67,7 @@ tp-frame-relay-uadb/
 | 2 | Point-à-point (2 routeurs) via Switch | ✅ Terminé |
 | 3 | Point-à-point (3 routeurs) avec RIP |  ✅ Terminé |
 | 4 | Point-à-point (4 routeurs) avec RIP |  ✅ Terminé |
-| 5 | Simple configuration sans Switch | ⏳ À venir |
+| 5 | Simple configuration sans Switch | ✅ Terminé |
 | 6 | frame-relay map ip | ⏳ À venir |
 | 7 | frame-relay interface-dlci | ⏳ À venir |
 | 8 | Configuration multipoint | ⏳ À venir |
